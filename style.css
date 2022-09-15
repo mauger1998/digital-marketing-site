@@ -16,6 +16,7 @@ header {
 ul {
     display:flex;
     list-style-type: none;
+    align-items: center;
 
 }
 ul li a{
@@ -89,7 +90,7 @@ main p {
 
 }
 .signup-btn {
-    padding: 15px 30px;
+    padding: 10px 20px;
     background: #c4c4f7;
     color: white;
     outline:none;
@@ -99,4 +100,9 @@ main p {
     border-radius: 50px;
     margin-left: 25px;
 
+}
+.cta:hover,
+.signup-btn:hover {
+    background: #b0b0f5;
+    cursor: pointer;
 }
