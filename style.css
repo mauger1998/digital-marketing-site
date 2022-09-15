@@ -43,3 +43,8 @@ main {
     height:calc(100vh - 100px);
     align-items: center;
     justify-content: center;
+}
+.hero-img {
+    max-width: 670px;
+    height: auto;
+}
