@@ -37,3 +37,9 @@ li a:hover:after {
     width:125%;
 
 }
+main {
+    display:flex;
+    border: 1px solid black;
+    height:calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
