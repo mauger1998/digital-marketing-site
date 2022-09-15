@@ -6,3 +6,10 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+header {
+    height:150px;
+    background: grey;
+    display: flex;
+    
+
+}
