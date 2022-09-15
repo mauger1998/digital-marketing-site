@@ -39,7 +39,6 @@ li a:hover:after {
 }
 main {
     display:flex;
-    border: 1px solid black;
     height:calc(100vh - 100px);
     align-items: center;
     justify-content: center;
@@ -75,4 +74,17 @@ main p {
     margin-top:30px;
     margin-bottom: 30px;
     margin-left:25px;
+    margin-right: 0;
+}
+.cta{
+    padding: 15px 30px;
+    background: #c4c4f7;
+    color: white;
+    outline:none;
+    border:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-left: 25px;
+
 }
