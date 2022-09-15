@@ -48,3 +48,20 @@ main {
     max-width: 670px;
     height: auto;
 }
+.content-left {
+    width: 30%;
+}
+
+main h1 {
+    font-size: 54px;
+    color: #133b4f;
+    text-transform: uppercase;
+
+}
+main h2 {
+    font-size:25px;
+    color: #fca70c;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing:8px;
+}
