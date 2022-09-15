@@ -22,4 +22,8 @@ ul li a{
     padding: 0 20px;
     text-decoration: none;
     color: #383838;
+
+}
+li a:hover{
+    color:grey;
 }
