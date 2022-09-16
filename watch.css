@@ -1,0 +1,123 @@
+/* Style for all */
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+/*Header*/
+header {
+    height:100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display:flex;
+    list-style-type: none;
+    align-items: center;
+
+}
+ul li a{
+    padding: 0 20px;
+    text-decoration: none;
+    color: #383838;
+    display: inline-block;
+
+}
+li a::after {
+    content: '';
+    display:block;
+    height: 4px;
+    width: 0;
+    background:#c4c4f7;
+    transition:all .5s;
+}
+li a:hover:after {
+    width:125%;
+
+}
+.signup-btn {
+    padding: 10px 20px;
+    background: #c4c4f7;
+    color: white;
+    outline:none;
+    border:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-left: 25px;
+
+}
+
+/*Main Left*/
+main {
+    display:flex;
+    height:calc(100vh - 100px);
+    align-items: center;
+    justify-content: center;
+}
+
+.content-left {
+    width: 30%;
+}
+
+main h1 {
+    font-size: 54px;
+    color: #133b4f;
+    text-transform: uppercase;
+    margin-left:25px;
+
+}
+main h2 {
+    font-size:25px;
+    color: #fca70c;
+    font-weight:400;
+    text-transform: uppercase;
+    letter-spacing:8px;
+    margin-left:25px;
+}
+main p {
+    font-size:14px;
+    font-weight: 400;
+    color: #333;
+    line-height: 31.5px;
+    margin-top:30px;
+    margin-bottom: 30px;
+    margin-left:25px;
+    margin-right: 0;
+}
+.cta{
+    padding: 15px 30px;
+    background: #c4c4f7;
+    color: white;
+    outline:none;
+    border:none;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 50px;
+    margin-left: 25px;
+    transition:0.5s;
+
+}
+/*Right Section*/
+
+.hero-img {
+    max-width: 670px;
+    height: auto;
+
+}
+
+.cta:hover,
+.signup-btn:hover {
+    background: #b0b0f5;
+    cursor: pointer;
+}
+.cta:hover {
+    padding: 20px 35px;
+    cursor: pointer;
+    transition:0.5s;
+}
